@@ -1,0 +1,5 @@
+{"schema_version":1,"cases":[
+  {"id":"meters-to-centimeters","value":"1.5","from":"m","to":"cm","expected":"150","tolerance":"0"},
+  {"id":"binary-storage","value":"1","from":"KiB","to":"B","expected":"1024"},
+  {"id":"rounded-feet-expectation","value":"1","from":"m","to":"ft","expected":"3.28084","tolerance":"0.00001"}
+]}

@@ -1,0 +1,4 @@
+{"schema_version":1,"cases":[
+  {"id":"intentionally-wrong-centimeters","value":"1","from":"m","to":"cm","expected":"99","tolerance":"0"},
+  {"id":"outside-tolerance","value":"1","from":"KiB","to":"B","expected":"1023.5","tolerance":"0.25"}
+]}
