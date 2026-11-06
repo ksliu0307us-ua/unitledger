@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "unitledger"
+version = "0.1.0"
+description = "Exact unit conversions, compatibility checks, and conversion-table verification"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "ksliu0307us-ua", email = "ksliu0307.us@gmail.com" }]
+dependencies = []
+
+[project.scripts]
+unitledger = "unitledger.cli:main"
+
+[tool.setuptools]
+packages = ["unitledger"]
